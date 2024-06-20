@@ -136,9 +136,9 @@ ol {
 
 .content__card-link {
   display: block;
+  margin: 2px;
   color: #fff;
   text-decoration: none;
-  margin: 2px;
 }
 
 .content__card-link_current {
@@ -186,10 +186,10 @@ ol {
   align-items: center;
   column-gap: 15px;
   .search-form__label {
-    cursor: pointer;
     display: inline-flex;
     align-items: center;
     column-gap: 5px;
+    cursor: pointer;
 
     &:hover {
       text-decoration: underline;
@@ -213,25 +213,25 @@ ol {
 
 .search-form__label:has(input:checked) .search-form__pseudo-checkbox::before {
   content: "";
-  height: calc(100% - 2px);
   width: calc(100% - 2px);
+  height: calc(100% - 2px);
   background-color: rgb(255, 255, 255);
 }
 
 .search-form__textfield {
   width: 100%;
+  border: 1px solid white;
+  border-right: none;
+  border-left: none;
   padding-top: 2px;
   padding-bottom: 2px;
-  user-select: none;
   font-family: Fira Sans Condensed, Arial;
   font-weight: 400;
   font-size: 18px;
   line-height: 21.6px;
   text-align: left;
   background-color: #1b1919;
-  border: 1px solid white;
-  border-right: none;
-  border-left: none;
+  user-select: none;
 }
 
 .search-form__textfield:active {
@@ -240,9 +240,9 @@ ol {
 }
 
 .search-form__textfield:focus {
-  background-color: #000;
   outline: 1px solid #ffffff;
   outline-offset: 1px;
+  background-color: #000;
 }
 
 .search-form__textfield::content{
@@ -262,8 +262,8 @@ ol {
 }
 
 .button:hover {
-  cursor: pointer;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .button:active {
